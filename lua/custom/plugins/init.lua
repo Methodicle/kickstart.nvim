@@ -3,4 +3,6 @@
 --
 -- See the kickstart.nvim README for more information
 
+vim.fn.setenv('NVIM_ENTRY_POINT', vim.fn.getcwd())
+
 return {} -- Ensure to keep this line at the end
